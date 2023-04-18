@@ -1,0 +1,8 @@
+import pandas as pd
+praveen_1 = pd.read_excel('Deskstop/praveen-dataset1.xlsx')
+praveen_2 = pd.read_excel('Deskstop/praveen-dataset12.xlsx')
+print(praveen_1)
+print(praveen_2)
+merged_df = pd.merge(praveen_1,praveen_2)
+print(merged_df)
+
